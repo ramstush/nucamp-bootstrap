@@ -5,11 +5,12 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Lobster", cursive
+    font-family: "Lobster", cursive;
+    color: rgb(21,70,6);
 }
 
 h2 {
-    color: #3046C5;
+    color: rgb(21,70,6);
 }
 
 header h2 {
@@ -17,14 +18,14 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(rgb(49, 148, 82), white);
     padding: 20px 0px;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, rgb(21, 70, 6), rgb(43, 150, 22), #60106B);
 }
 
 .row-content {
